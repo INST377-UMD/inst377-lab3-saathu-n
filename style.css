@@ -1,0 +1,126 @@
+/* Import Cute Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Comic+Neue:wght@700&display=swap');
+
+/* General Page Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffb6c1; /* Light Pink Background */
+    margin: 0;
+    padding: 0;
+    color: #2c3e50; /* Dark Grey-Blue Text */
+}
+
+/* Header & Footer */
+.header-footer {
+    background-color: #86c0d9; /* Turquoise Green */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: 'Comic Neue', cursive; /* Cute Font */
+    border-radius: 10px;
+}
+
+/* Navigation Bar */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ff69b4; /* Hot Pink */
+    border-radius: 8px;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Comic Neue', cursive;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #ff1493; /* Deep Pink */
+}
+
+/* Main Content & Sidebar */
+.container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Main Content */
+main {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar */
+aside {
+    width: 30%;
+    height: 200px;
+    background-color: #86c0d9; /* Turquoise Green */
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Comic Neue', cursive;
+    font-size: 18px;
+}
+
+aside:hover {
+    background-color: #20b2aa; /* Darker Turquoise */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #ff69b4; /* Hot Pink Border */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Input Focus Effect */
+input:focus {
+    width: 250px;
+    transition: 0.3s;
+    border-color: #ff1493; /* Deep Pink */
+}
+
+/* Button Styling */
+button {
+    background-color: #ff69b4; /* Hot Pink */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff1493; /* Deep Pink */
+}
+
